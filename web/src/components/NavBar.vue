@@ -16,6 +16,9 @@
         <li class="nav-item">
           <router-link :class="route_name == 'ranklist_index' ? 'nav-link btn active btn-outline-success rounded-pill' : 'nav-link btn btn-outline-success rounded-pill'" :to="{name: 'ranklist_index'}">排行榜</router-link>
         </li>
+        <li class="nav-item">
+          <router-link :class="route_name == 'AI_index' ? 'nav-link btn active btn-outline-success rounded-pill' : 'nav-link btn btn-outline-success rounded-pill'" :to="{name: 'AIshare_index'}">AI分享</router-link>
+        </li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">

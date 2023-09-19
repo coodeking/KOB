@@ -4,6 +4,7 @@ import RecordView from '../views/record/RecordView'
 import RankListView from '../views/ranklist/RankListIndexView'
 import UserBotIndexView from '../views/user/bots/UserBotIndexView'
 import NotFound from '../views/error/NotFound'
+import AiShare from '../views/aishare/AiShare'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path:"/ranklist/",
     name:"ranklist_index",
     component:RankListView
+  },
+  {
+    path:"/AIshare/",
+    name:"AIshare_index",
+    component:AiShare
   },
   {
     path:"/user/bot/",
